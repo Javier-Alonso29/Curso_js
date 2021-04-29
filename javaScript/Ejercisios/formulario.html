@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="DOM.js"></script>
+    <style>
+        .box {
+            width: 350px;
+            float: left;
+            margin: 20px;
+            height: 250px;
+        }
+
+        .dasehd {
+            border: 3px dashed black;
+            padding: 10px;
+            background: yellow;
+        }
+
+        .dasehd h3{
+            text-align: center;
+        }
+    </style>
+
+    <title>Formulario</title>
+
+</head>
+
+<body>
+    <!--
+        1.- Formulario campos: Nombre, Apellidos y Edad
+        2.- Boton enviar formulario: Evento sumbit
+        3.- Mostrar datos por pantall
+        4.- Validacion del formulario
+     -->
+    <h1>Ejercisio DOM, Eventos y Funciones</h1>
+
+    <div class="box">
+        <form id="formulario" onsubmit="return false">
+            <label for="nombre">Nombre:</label> <br />
+            <input type="text" name="nombre" id="nombre"><br />
+            <span id="error_nombre"></span>
+
+            <br />
+            <label for="apellidos">Apellidos:</label><br/>
+            <input type="text" name="apellidos" id="apellidos"><br />
+            <span id="error_apellidos"></span>
+            
+            <br/>
+            <label for="edad">Edad:</label><br/>
+            <input type="number" name="edad" id="edad"><br />
+            <span id="error_edad"></span>
+
+            <br />
+            <label for="password">Contraseña:</label><br/>
+            <input type="password" name="contraseña" id="pass" required><br />
+            <span id="erorr_password"></span>
+
+            <br />
+            <input type="submit" value="Enviar" id="submit">
+            <br />
+        </form>
+    </div>
+
+    <div class="box dasehd">
+        <h3>Informacion del usuario</h3>
+        <hr>
+        <p id="p_nombre">
+            Nombre: <span></span>
+        </p>
+        <p id="p_apellidos">
+            Apellidos: <span></span>
+        </p>
+        <p id="p_edad">
+            Edad: <span></span>
+        </p>
+        <p id="p_pass">
+            Contraseña: <span></span>
+        </p>
+    </div>
+</body>
+
+</html>

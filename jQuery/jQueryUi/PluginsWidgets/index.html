@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery UI</title>
+    <script src="../../jquery-3.4.1.min.js"></script>
+    <!-- Agregamos la libreria jQuery UI -->
+    <script src="../jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <!-- Agregamos los estilos aqui -->
+    <link rel="stylesheet" href="../jquery-ui-1.12.1/jquery-ui.min.css">
+    <!-- Agregamos la estructura -->
+    <link rel="stylesheet" href="../jquery-ui-1.12.1/jquery-ui.structure.min.css">
+    <!-- Agremos los temas -->
+    <link rel="stylesheet" href="../jquery-ui-1.12.1/jquery-ui.theme.min.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- Mi script -->
+    <script src="PluginsWidgets.js"></script>
+   
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col text-center">
+                <h1>Plugins and Widgets</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h3>Tooltip</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <a class="btn btn-success" href="#" role="button" title="Este link no lleva a ningun lugar">Link</a>
+            </div>
+            <div class="col">
+                <a class="btn btn-success" href="#" role="button" title="Este es otro ejemplo de Tooltip">Link</a>
+            </div>
+            <div class="col">
+                <a class="btn btn-success" href="#" role="button" title="Otro mas">Link</a>
+            </div>
+            <div class="col">
+                <a class="btn btn-success" href="#" role="button" data-bs-toggle="tooltip" title="Este esta echo con bootstrap" data-bs-placement="right">Link</a>
+            </div>
+            <div class="col">
+                <a class="btn btn-success" href="#" role="button" title="Este link no lleva a ningun lugar">Link</a>
+            </div>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>Cuadros de dialogo</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+
+                <button id="lanza-popup" class="btn btn-primary">Lanzar popup</button>
+                
+                <div id="popup" title="¿Estas seguro?" style="display: none;">
+                    <p>Su continuas el curso aprenderas mucho de js</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</body>
+</html>

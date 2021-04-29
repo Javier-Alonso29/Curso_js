@@ -1,0 +1,70 @@
+body{
+    background: url('../img/fondo.jpg');
+}
+
+#global{
+    background: #f5f6fa;
+}
+
+#logo{
+    background-color: #4cd137;
+    color: white;
+}
+
+#menu ul{
+    background-color:#fbc531;
+
+}
+
+#menu ul li a{
+    color: #2f3640;
+}
+
+
+
+#menu ul li:hover{
+    background-color: aliceblue;
+    
+}
+
+#menu ul li a:hover{
+    color: black;
+}
+
+.post h2{
+    color: #2f3640;
+}
+
+.post .date{
+    color:#95a5a6;
+}
+
+.post p{
+    color: #2f3640;
+}
+
+.botton-more{
+    background-color: #00a8ff;
+    color: white;
+}
+
+#sidebar h4{
+    color: #2f3640;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"]{
+    border: 1px splid #00a8ff;
+    box-shadow: 0px 0px 2px #00a8ff;
+}
+
+form input[type="submit"]{
+    background-color: #00a8ff;
+    color: #ecf0f1;
+}
+
+#date{
+    background: #4cd137;
+    color: #ecf0f1;
+}

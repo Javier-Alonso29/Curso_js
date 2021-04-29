@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ajax</title>
+    <script src="../jquery-3.4.1.min.js"></script>
+    <script src="ajax.js"></script>
+    <style>
+        .datos{
+            border: 2px solid green;
+            width: 250px;
+            height: 250px;
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Ajax sirve para obtener datos del servidor sin la necesidad de que el usuario tenga que recargar la pagina -->
+    <h1>Ajax</h1>
+
+    <div class="datos" id="datosLoad"></div>
+
+    <div class="datos" id="datosGet"></div>
+
+    <br>
+
+
+    <form id="formulario" action="https://reqres.in/api/users" method="post">
+    
+        <input type="text" name="name">
+        <input type="text" name="rol">
+
+        <input type="submit" value="registrar">
+
+    </form>
+
+</body>
+</html>
