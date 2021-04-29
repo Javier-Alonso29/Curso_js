@@ -126,7 +126,8 @@ body{
 
 form input[type="text"],
 form input[type="email"],
-form input[type="password"]{
+form input[type="password"],
+form input[type="number"]{
     padding: 5px;
     border-radius: 3px;
     /* border: 1px splid #ccc; */
@@ -224,4 +225,15 @@ footer{
     margin: 0px auto;
     display: block;
     justify-content: left;
+}
+
+#form_contacto{
+    width: 55%;
+    margin-top: 15px;
+}
+
+#form_contacto label{
+    width: 100;
+    margin-top: 5px;
+    display: block;
 }

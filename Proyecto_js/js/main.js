@@ -111,5 +111,11 @@ $(document).ready(function(){
     }else{
         $("#about p").html("Bienvenido, logeate para tener una mejor experiencia");
     }
+
+    // Validacion
+    $.validate({
+        lang:'es'
+    });
+
     
 })
