@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eventos Load</title>
+    <!-- Aqui es donde se carga el script -->
+    <script src="Load.js"></script>
+</head>
+
+<body>
+
+    <section id="evento-raton">
+        <h2>Eventos cargando el script al principio "Load"</h2>
+
+
+        <p>
+            Capturar cuando el usuario da cick
+        </p>
+        <button id="botton-R1" onclick="cambiaColor();">Cambia de color</button>
+
+        <hr>
+
+        <p>
+            Cunado el usuario da dos click
+        </p>
+
+        <button id="buton-R2" ondblclick="cambiaTexto();">on</button>
+
+        <hr>
+
+        <!-- Existen otras maneras de manejar los eventos las cuales se manejan directamente desde js con funciones callback-->
+
+        <p>
+            Forma mas limpia de hacer funciones desde js
+        </p>
+
+        <button id="buton-R3">callback</button>
+
+        <hr>
+
+
+
+        <p>
+            Cunado el usuario pasa sobre un boton "Mouse over"
+        </p>
+
+        <button id="buton-R4">Hola</button>
+
+        <hr>
+
+        <p>
+            Cunado el usuario pasa sobre un boton "
+        </p>
+
+        <button id="buton-R5">Focus</button>
+
+        <form>
+            <input type="text" name="nombre" id="campo_nombre" />
+        </form>
+
+        <hr>
+
+        <p>
+            Cunado el usuario esta escribiendo
+        </p>
+
+        <button id="buton-R">keydown</button>
+
+        <form>
+            <input type="text" name="nombre" id="campo_nombre2" />
+        </form>
+
+        <hr>
+
+        <p>
+            tecla precionada por el usuario
+        </p>
+
+        <button id="buton-R">keypress</button>
+
+        <form>
+            <input type="text" name="nombre" id="campo_nombre3" />
+        </form>
+
+        <hr>
+
+        <p>
+            Cuando el usuario levanta el dedo de la tecla
+        </p>
+
+        <button id="buton-R">keyup</button>
+
+        <form>
+            <input type="text" name="nombre" id="campo_nombre4" />
+        </form>
+
+        <hr>
+        
+    </section>
+
+
+    
+</body>
+
+</html>

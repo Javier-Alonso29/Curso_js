@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../jquery-3.4.1.min.js"></script>
+    <script src="eventos.js"></script>
+    <title>Eventos</title>
+    <style>
+        .caja{
+            width: 250px;
+            height: 250px;
+            border: 2px solid black;
+            background: yellow;
+            transition: 300ms all;
+        }
+
+        /* Hacerlo en js
+        #caja:hover{
+            
+            background: red;
+            cursor: pointer;
+        }*/
+
+        input{
+            width: 250px;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        #datos{
+            display: none;
+        }
+
+        #sigueme{
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            display: block;
+            background: #4b6584;
+            opacity: 0.9;
+            border-radius: 999px;
+            color: rgb(156, 212, 0);
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Eventos</h1>
+
+    <div class="caja" id="caja1">
+        <center>
+            Caja 1
+        </center>
+    </div>
+
+    <div class="caja" id="caja2">
+        <center>
+            Caja 2
+        </center>
+    </div>
+
+    <div class="caja" id="caja3">
+        <center>
+            Caja 3
+        </center>
+    </div>
+
+    <div class="caja" id="caja4">
+        <center>
+            Caja 4
+        </center>
+    </div>
+
+
+    <br>
+
+    <form action="">
+        <input type="text" id="nombre">
+    </form>
+
+    <div class="caja" id="datos">
+        <center>Hola</center>
+    </div>
+
+    <div id="sigueme">
+        buu!
+    </div>
+    
+</body>
+</html>

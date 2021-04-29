@@ -1,0 +1,71 @@
+body{
+    background: url('../img/fondo-negro.jpg');
+}
+
+#global{
+    background: #34495e;
+}
+
+#logo{
+    background-color: #3498db;
+    color: white;
+}
+
+#menu ul{
+    background-color:#2ecc71;
+}
+
+#menu ul li:hover{
+    background-color: aliceblue;
+    
+}
+
+#menu ul li a:hover{
+    color: black;
+}
+
+.post h2{
+    color: #ecf0f1;
+}
+
+.post .date{
+    color:#95a5a6;
+}
+
+.post p{
+    color: #ecf0f1;
+}
+
+.botton-more{
+    background-color: #2ecc71;
+    color: white;
+}
+
+#sidebar h4{
+    color: #ecf0f1;
+}
+
+#sidebar p{
+    color: #ecf0f1;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"]{
+    border: 1px splid #2ecc71;
+    box-shadow: 0px 0px 2px #2ecc71;
+}
+
+form input[type="submit"]{
+    background-color: #2ecc71;
+    color: #ecf0f1;
+}
+
+#box h2{
+    color: #ecf0f1;
+}
+
+#date{
+    background-color: #3498db;
+    color: #ecf0f1;
+}

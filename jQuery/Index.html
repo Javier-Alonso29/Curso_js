@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery-3.4.1.min.js"></script>
+    <title>Document</title>
+
+    
+</head>
+<body>
+    <h1>Modo de agregar links desde js</h1>
+
+    <br>
+
+    <div>
+        <input type="text" placeholder="Introduce tu link" id="n_link" name="link">
+        <input type="button" value="enviar" id="enviar">
+    </div>
+    <div id="tabla">
+
+    </div>
+
+
+
+    <script>
+        
+        $('#enviar').click(function(){
+
+            var link_tempo = $('#n_link').val();
+
+            console.log(link_tempo);
+
+            var links = [];
+
+            regargaLinks(link_tempo,links);
+
+        });
+
+
+        function regargaLinks(link_tempo,links){
+            
+
+            links.push(link_tempo);
+
+            links.forEach(function(item,index){
+
+                    $('#tabla').text(item);
+
+            });
+
+        }
+
+
+    </script>
+</body>
+</html>
