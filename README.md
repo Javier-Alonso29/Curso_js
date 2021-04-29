@@ -1,7 +1,8 @@
 # Curso Javascript 🦖
 
 Máster en JavaScript, impartido por Víctor Robles en la plataforma [Udemy][link]
-- JavaScript, el lenguaje de programación más popular en la actualidad.
+
+- JavaScript, el lenguaje de programación más popular en la actualidad. 🧷
 
 - jQuery, la librería más popular y utilizada en JavaScript. 🦖
 
